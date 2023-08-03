@@ -7,3 +7,6 @@
 
 ## 온라인 코드 리뷰 과정
 * [텍스트와 이미지로 살펴보는 온라인 코드 리뷰 과정](https://github.com/next-step/nextstep-docs/tree/master/codereview)
+---
+- [] 기초 명세서 파악하기
+    - [X] 1번 구간 작성하는 구간 - 체크 되었는지 확인하기 
