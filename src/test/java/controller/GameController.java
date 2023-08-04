@@ -16,7 +16,7 @@ public class GameController {
 
         for( int i = 0 ; i < count ; i++ ) {
             int randomNumber = random.nextInt(10);
-            randomNumbers.set(i, randomNumber);
+            randomNumbers.add(i, randomNumber);
         }
 
         return randomNumbers;

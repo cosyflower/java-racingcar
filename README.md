@@ -21,7 +21,7 @@
 
 ## Car
 - [] 생성된 난수를 확인하고 전진 여부를 확인합니다 
-  - [] 0-9 사이의 난수를 생성합니다 - RandomGenerator로부터 난수를 전달 받습니다 
+  - [] 0-9 사이의 난수를 생성합니다 - (RandomGenerator)로부터 난수를 전달 받습니다 
   - [] 4 이상이면 전진하고 4보다 작으면 전진하지 않습니다 (=멈춥니다)
 
 ## GameController - Model, View 의존
@@ -42,8 +42,8 @@
   - [X] 생성된 난수들을 반환합니다 
   
 ### CarStatus - 자동차 상태 - 변수  
-- [X] Car 관련 일급 컬렉션 CarCollection.class
-  - [X] (checkWinner) 최대 position 값을 가진 객체 혹은 객체들을 List<> 로 반환하기
+- [X] Car 관련 일급 컬렉션 - ( CarCollection.class ) 
+  - [X] 최대 position 값을 가진 객체 혹은 객체들을 List<> 로 반환하기 - ( checkWinner() )
   - [X] 가장 많이 전진한 Car을 확인합니다
     - [X] 각 Car의 전진 횟수를 확인합니다
     - [X] 가장 큰 전진 회수를 지닌 Car 를 저장합니다
